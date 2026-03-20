@@ -1,0 +1,11 @@
+[project]
+name = "youtube-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.135.1",
+    "fastmcp[tasks]>=3.1.1",
+    "youtube-transcript-api>=0.6.2",
+]
